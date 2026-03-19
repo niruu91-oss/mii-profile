@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a071bcad;
+    color: azure;
+    text-shadow: 1px 2px 3px black;
+    background-image: url(background.jpg); /* 背景画像 */
+    background-origin: padding-box;
+    background-attachment: fixed;
+    backdrop-filter: blur(1px); /* 背景のぼかし効果 */
+
+}
+
+header {
+    background-color:#333333e0;
+    color: rgba(255, 255, 255, 0.827);
+    padding: 1rem;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+main {
+    padding: 2rem;
+    background-color: #834ca2ad;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.333);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+footer {
+    background-color: #333333e0;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+link {
+    color: #a071bc;
+    text-decoration: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
